@@ -12,7 +12,7 @@ namespace Bakery.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to Fancy Bakery";
+            ViewBag.Message = "Welcome to D&T Bakery";
 
             return View();
         }
