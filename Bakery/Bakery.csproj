@@ -151,6 +151,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LogInController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Global.asax.cs">
@@ -180,6 +181,7 @@
     <Compile Include="Models\Employee.cs">
       <DependentUpon>BakeryModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginClass.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="Models\NewPerson.cs" />
     <Compile Include="Models\Person.cs">
@@ -262,6 +264,7 @@
     <Content Include="Views\Product\Product.cshtml" />
     <Content Include="Views\Register\Register.cshtml" />
     <Content Include="Views\Shared\Result.cshtml" />
+    <Content Include="Views\LogIn\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
