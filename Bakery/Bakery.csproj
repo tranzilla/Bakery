@@ -152,6 +152,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LogInController.cs" />
+    <Compile Include="Controllers\NewProductController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
@@ -182,9 +183,11 @@
     <Compile Include="Models\Employee.cs">
       <DependentUpon>BakeryModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Item.cs" />
     <Compile Include="Models\LoginClass.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="Models\NewPerson.cs" />
+    <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Person.cs">
       <DependentUpon>BakeryModel.tt</DependentUpon>
     </Compile>
@@ -266,10 +269,12 @@
     <Content Include="Views\Register\Register.cshtml" />
     <Content Include="Views\Shared\Result.cshtml" />
     <Content Include="Views\LogIn\Index.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
+    <Content Include="Views\Order\Receipt.cshtml" />
+    <Content Include="Views\NewProduct\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Order\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
