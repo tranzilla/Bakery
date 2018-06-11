@@ -19,7 +19,7 @@ namespace Bakery.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "We are David & Tran. We make cakes, because it's somebody's birthday somewhere.";
 
             return View();
         }
